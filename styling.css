@@ -1,0 +1,68 @@
+nav{
+    background-color: black;
+}
+#about{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+.detel{
+    text-align: center;
+    margin-left: 0%;
+    margin-top: 15%;
+}
+.detel h1{
+    font-size:50px;
+    color: #f08812;
+    margin-bottom: 30px;
+}
+.detel p{
+    font-size: 30px;
+    color: #f08812;
+}
+.navbarScroll.navbarDark {
+    background-color: rgba(0, 0, 0, 0.459);
+}
+#contact {
+    padding-bottom: 4rem;
+}
+.imageAboutPage {
+    width: 100%;
+} 
+.skillsText.card {
+    height: 280px;
+    cursor: pointer;
+    background-color: #000000;
+  }
+.skillsIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+}
+.card-text{
+    color:#fff;
+}
+.card-title {
+    text-align: center;
+    color: #fff;
+}
+.card:hover .skillsIcon {
+    color: #008000;
+}
+.skills:hover {
+    border: 1px solid #008000;
+}
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-linkedin:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
