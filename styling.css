@@ -4,29 +4,49 @@ nav{
 #about{
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
+    background-color:mistyrose;
 }
-.detel{
+.about2{
+    color:indianred;
+    background-color:lavenderblush;
+}
+.about3{
+    color: rgb(10, 131, 171);
+    background-color: lightcyan;
+}
+.bgimage {
+    height:100vh;
+    background: url('https://media.istockphoto.com/id/1337668467/vector/modern-rainbow-glow-backlight-frame.jpg?s=612x612&w=0&k=20&c=xbuNlYJsMRHstRLRkJyAW_eDaYLE6sXjQoFFo1tmFSo=');
+    background-size:cover;
+    position:relative;
+}
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
     text-align: center;
-    margin-left: 0%;
-    margin-top: 15%;
-}
-.detel h1{
-    font-size:50px;
-    color: #f08812;
-    margin-bottom: 30px;
-}
-.detel p{
-    font-size: 30px;
-    color: #f08812;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(20, 220, 216);
 }
 .navbarScroll.navbarDark {
     background-color: rgba(0, 0, 0, 0.459);
 }
 #contact {
+    background-color:lightcyan;
     padding-bottom: 4rem;
+    /*margin-left: 30%;*/
 }
 .imageAboutPage {
     width: 100%;
+    border-style:groove;
+    border-color: crimson;
 } 
 .skillsText.card {
     height: 280px;
