@@ -14,7 +14,9 @@
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
         <div class="container">
             <a class="navbar-brand" href="#">Shruthi</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+            aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -39,12 +41,30 @@
         <div class="container-fluid">
             <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-                <h1>Hi, it's Shruthi GS</h1>
-                <p>This is my official portfolio website,
-                    <br> created using HTML, CSS, JavaScript and Bootstrap</p>
+                <h1>Hi, it's Shruthi GS</h1><br>
+                <p>This is my official portfolio webpage,
+                    <br> created using HTML, CSS, JavaScript<br> and Bootstrap</p>
+            </div>
             </div>
         </div>
-        </div>
+    <div id="me">
+        <img src="https://www.springboard.com/blog/wp-content/uploads/2021/10/Essential-Full-Stack-Developer-Skills-scaled.jpg" class="image2" alt="">
+        <div class="row mt-3">
+            <div class="col-md-10">
+                <p class="text-center"> Here's a brief introduction about myself.
+               </p>
+                <ul>
+                    <li>Name: Shruthi G S</li>
+                    <li>Degree:Engineering(B.E)</li>
+                    <li>Branch:Computer Science and Engineering</li>
+                    <li>Semester: 3rd</li>
+                    <li>College:KLS Gogte Institute of Technology,Belagavi,Karnataka</li>
+                    <li>Being interested in coding especially in C and Java, I'm aspiring to be a programmer in the future.</li>
+                    <li>My hobbies include listening music,painting,playing badminton. </li>
+                </ul>
+                </div>
+                </div>
+    </div>
         </section>
     <section id="about">
         <div class="container mt-4 pt-4">
@@ -54,26 +74,13 @@
                     <img src="https://user-images.githubusercontent.com/116060026/219399009-69d279bc-959a-4806-889d-3e1904a3a911.jpeg" class= "imageAboutPage" alt="">
                 </div>
                 <div class="col-lg-8">
-                    <p> 
-                        Hello, here's a brief introduction about myself.
-                    </p>
-                    <div class="row mt-3">
-                        <div class="col-md-8">
-                            <ul class="about2">
-                                <li>Name: Shruthi G S</li>
-                                <li>Age: 20</li>
-                                <li>Degree:Engineering(B.E)</li>
-                                <li>Branch:Computer Science and Engineering</li>
-                                <li>Semester: 3rd</li>
-                                <li>College:KLS Gogte Institute of Technology,Belagavi,Karnataka</li>
-                            </ul>
-                            
-                    <div class="row mt-3">
-                        Educational details:
+                    <div class="row mt-3"><br>
+                        <h5>Educational details:</h5>
                             <ul class="about3">
-                                <li>Schooling:<br>
-                                    Love Dale Central School, Belagavi
-                                    <br>Percentage: <strong>94%</strong></li>
+                                <br><li>Schooling:<br>
+                                    <li>Primary to 9th std: St. Antony's Public School,Hubballi</li>
+                                    <li>10th std: Love Dale Central School, Belagavi</li>
+                                    <li>CBSE 10th std Percentage: <strong>94%</strong></li>
                                 <li>PUC:<br>
                                 KLE Independent PU College, Belagavi<br>
                                 Percentage: <strong>99.5% </strong></li>
@@ -152,17 +159,18 @@
         <div class="container mt-3 contactContent">
             <h1 class="text-center">Contact Me</h1>
                 <div class="col-lg-6">
-                    <form>
-                        <input type="text" class="form-control form-control-lg" placeholder="Name">
-                        <input type="email" class="form-control lg" placeholder="Email">
-                        <input type="tel" class="form-control lg" placeholder="Phone number">
+                    <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+                        <input type="text" class="form-control form-control-lg" name="fname" title="Enter your full name" placeholder="Name">
+                        <label for="emailing"></label>
+                        <input type="email" id="emailing" class="form-control lg" name="email" title="Enter your Email ID" placeholder="Email">
+                        <label for="phone"></label>
+                        <input type="tel" class="form-control lg"  name="phone" title="Enter your 10 digit phone number" placeholder="Phone number" pattern="[1-9]{1}[0-9]{9}">
                         <div class="mb-3 mt-3">
-                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Comments"></textarea>
+                        <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Comments"></textarea>
                         </div>
+                        <input type="submit" class="btn btn-success mt-3">
                     </form>
-                    <button type="button" class="btn btn-success mt-3">Contact Me</button>
                 </div>
-
             </div>
         </div>
     </section>
